@@ -23,7 +23,7 @@ pnpm-debug.log*
 *.sw?
 
 # 忽略设计图文件夹
-设计图/
+Design/
 
 # 忽略icomoon文件夹，除了style.css文件和fonts文件夹
 icomoon/demo-files
