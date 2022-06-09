@@ -1,28 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- 这里是登录首页，不要删除 -->
+    <Login v-if="$route.name === 'Login'"></Login>
+    <router-view></router-view>
+    <!-- 这里是登录首页，不要删除 -->
+
+    <!-- <ElectricPowerCurve></ElectricPowerCurve> -->
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Login from "@/views/Login";
+// import CovidData from "./components/CovidData";
+// import MyCanvas from "@/views/MyCanvas";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Login,
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
