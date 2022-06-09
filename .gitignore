@@ -26,6 +26,7 @@ pnpm-debug.log*
 设计图/
 
 # 忽略icomoon文件夹，除了style.css文件和fonts文件夹
-src/icomoon/
-!src/icomoon/style.css
-!src/icomoon/fonts/
+src/icomoon/demo-files
+src/icomoon/demo.html
+src/icomoon/Read Me.txt
+src/icomoon/selection.json
