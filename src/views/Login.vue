@@ -9,7 +9,7 @@
         <input type="password" name="passwd" placeholder="请输入用户密码" />
         <input
           type="submit"
-          value="登录"
+          value="登录按钮"
           @click.prevent="submit('/Navagation', 'Navagation')"
         />
       </div>
